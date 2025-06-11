@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Harshita 💖</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="start-screen" id="startScreen">
+    <div class="start-content">
+      <h1>Hey Harshita... 💖</h1>
+      <div class="instructions">
+        <p>Your mission, should you choose to accept it:</p>
+        <ul>
+          <li>🔼 Catch falling hearts and cheesecakes</li>
+          <li>🍰 Each cheesecake = 3 points</li>
+          <li>💖 Each heart = 1 point</li>
+          <li>🎯 Reach 30 points to win!</li>
+        </ul>
+        <p>Move your mouse to control the pink catcher at the bottom.</p>
+      </div>
+      <button onclick="startGame()">Start the Love Game! 💘</button>
+    </div>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-content">
+      <div class="heart-container">
+        <div class="big-heart"></div>
+      </div>
+      <div class="messages" id="messages"></div>
+      <p class="final-message">Forgive me, Harshita.<br>Let's not end our story here. 💌</p>
+      <a href="sms:+91XXXXXXXXXX" class="message-link">Text me if there's even a small part of you that still wants this</a>
+    </div>
+    <div class="confetti-container" id="confetti"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
